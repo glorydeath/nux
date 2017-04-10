@@ -6,7 +6,6 @@ import (
 )
 
 var FSSPEC_IGNORE = map[string]struct{}{
-	"none":  struct{}{},
 	"nodev": struct{}{},
 }
 
